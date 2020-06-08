@@ -1,0 +1,124 @@
+.contenido{
+    padding-top: 5%;
+    padding-left: 13%;
+    padding-bottom: 5%;
+    align-content: center;
+}
+.criterios{
+    float: left;
+    padding: 10px;
+    background-color: rgb(240, 239, 239);
+    border-radius: 5%;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3);
+    margin-right: 2%;
+    
+}
+
+.busubi{
+    margin-left: 7%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border: 0;
+    border-radius: 5%;
+}
+
+.buttonubi{
+    margin-left: 7%;
+}
+
+.lblranprecios{
+    font-size: 13px;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+.minimo{
+    size: 100px;
+    margin-right: 5%;
+    margin-left: 4%;
+    border: 0;
+    border-radius: 5%;
+}
+
+.maximo{
+    border: 0;
+    border-radius: 5%;
+}
+
+.bodega{
+    margin-top: 0%;
+}
+
+.product{
+    width: 230px;
+    height: 300px;
+    padding: 5%;
+    padding-left: 10%;
+    background-color:  rgb(240, 239, 239);
+    border-radius: 5%;
+    margin-bottom: 10%;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3);
+}
+
+.pnombre{
+    font-size: large;
+    margin-bottom: 3%;
+    margin-right: 1%;
+}
+
+
+.pbodega{
+    margin-top: 5%;
+    font-size: small;
+    padding-left: 10%;
+}
+
+.pprecio{
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 10%;
+    color: red;
+}
+
+.pimagen{
+    width: 170px;
+    height: 170px;
+    margin-left: 5%;
+    border-radius: 5%;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.3);
+}
+
+.corazon{
+    position: relative;
+}
+
+.like-btn-svg {
+    width: 80px;
+    height: 100px;
+    background: url(https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png) no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] {
+    display:none;
+  }
+  
+  input:checked + .like-btn-svg{
+    transition: background 1s steps(28);
+    animation: fave-like-btn-svg 1s steps(28);
+    background-position: -2800px 0;
+  }
+  
+  @keyframes fave-like-btn-svg {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -2800px 0;
+    }
+  }

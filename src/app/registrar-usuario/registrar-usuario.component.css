@@ -1,0 +1,20 @@
+.contenido{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
+
+.eleccion{
+    margin: 5% 15%;
+}
+
+.eleccion a{
+    font-size: large;
+}
+
+.eleccion img{
+    width: 100px;
+    height: 100px;
+}
